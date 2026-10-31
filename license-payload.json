@@ -1,0 +1,9 @@
+{
+  "licenses": {
+    "FAST-XXXX-XXXX": {
+      "customer": "customer_001",
+      "active": true,
+      "expires": "2026-11-30"
+    }
+  }
+}
