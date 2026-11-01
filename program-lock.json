@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "product": "ZainChecker",
+  "config_type": "program-lock",
+  "license_file": "license.json",
+  "validation": {
+    "format": "signed-envelope",
+    "algorithm": "RSA-SHA256",
+    "verify_signature_before_reading_payload": true,
+    "require_active_license": true,
+    "enforce_expiration_date": true,
+    "bind_activation_code_to_customer": true
+  },
+  "connectivity": {
+    "online_validation_required": true,
+    "offline_grace": {
+      "enabled": false,
+      "duration_days": null,
+      "activation_rule": "requires_explicit_policy_and_signed_offline_grant"
+    }
+  },
+  "security": {
+    "private_signing_key_location": "distributor-controlled_only",
+    "embed_private_key_in_client": false,
+    "publish_private_key_to_repository": false
+  },
+  "implementation_status": "policy_definition_only_not_yet_enforced_by_launcher"
+}
