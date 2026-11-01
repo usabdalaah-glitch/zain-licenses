@@ -2,15 +2,11 @@
   "schema_version": 1,
   "product": "ZainChecker",
   "config_type": "installer",
-  "target_version": "1.3.0",
+  "target_version": "1.4.0",
   "license_file": "license.json",
   "license_validation": {
-    "format": "signed-envelope",
-    "algorithm": "RSA-SHA256",
-    "required_fields": [
-      "payload",
-      "signature"
-    ],
+    "format": "original-customer-map",
+    "required_fields_per_customer": ["active", "expires"],
     "activation_required": true,
     "online_validation_required": true
   },
@@ -20,8 +16,10 @@
     "required_components": [
       "ZainChecker.exe",
       "License.ps1",
+      "Launcher.ps1",
       "Run_ZainChecker.ps1",
-      "Launch_ZainChecker.vbs"
+      "Launch_ZainChecker.vbs",
+      "EdgeRepair.ps1"
     ],
     "edge_driver": {
       "source": "https://msedgedriver.microsoft.com/",
@@ -29,5 +27,5 @@
       "require_valid_authenticode_signature": true
     }
   },
-  "implementation_status": "configuration_manifest_only"
+  "implementation_status": "implemented_in_dev_build_pending_clean_machine_validation"
 }
