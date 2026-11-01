@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "product": "ZainChecker",
+  "config_type": "installer",
+  "target_version": "1.3.0",
+  "license_file": "license.json",
+  "license_validation": {
+    "format": "signed-envelope",
+    "algorithm": "RSA-SHA256",
+    "required_fields": [
+      "payload",
+      "signature"
+    ],
+    "activation_required": true,
+    "online_validation_required": true
+  },
+  "installation": {
+    "per_user": true,
+    "administrator_required": false,
+    "required_components": [
+      "ZainChecker.exe",
+      "License.ps1",
+      "Run_ZainChecker.ps1",
+      "Launch_ZainChecker.vbs"
+    ],
+    "edge_driver": {
+      "source": "https://msedgedriver.microsoft.com/",
+      "require_version_compatibility": true,
+      "require_valid_authenticode_signature": true
+    }
+  },
+  "implementation_status": "configuration_manifest_only"
+}
