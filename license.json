@@ -1,4 +1,14 @@
 {
-    "payload":  "{\n  \"licenses\": {\n    \"ab-zeen-20234897\": {\n      \"customer\": \"customer_002\",\n      \"active\": true,\n      \"expires\": \"2026-11-05\"\n    }\n  }\n}",
-    "signature":  "R4JQazYq1TzOYwZ17i8sZdtxW8LG53UaFoM82mi8faH3P2BG3Jvv2P8bjPIlS1kayB+Uvgc8mPSGibP9mwjxz93KrUMllcZ6mSzQrpnSuPWYwLEsgu1FYnFWtuqjQoZagp2mbSEoTtZwO9Ht4B/+5qYMY2B6xxmuubOAN5kcrNUyL3X5LB5ZKowJ8a/4EIwUk+Lj9kol7cnZmCdzfEmV3MyrATfJhxlI6vVc2S55XhmhhQlAQAcANrcNDNtA9NwkGeRssXbsFtU7i1jOtb1mEfkicfpgdYkH2K1XRKkJ4HHaMfv/dhx4NIhCC0OZ8YeF1iXt0DI2yA2v7GI6qe5YARx2lza53VZjNodAsPP8eASoABO3YoM+RVsctKleUcA8MkcdrA+wf2QX2VZwza5toJZVsV0jsSiVIwRN78uTMEpgn4xkm6qEChlDwRdFOvE1X+VmLr14h6jEO1aClJMGQYn0rCF42S8JFXyP7/Xoelzh1Ac4ZQHTF7R1FrssV6tb"
+  "customer_001": {
+    "active": true,
+    "expires": "2026-11-02"
+  },
+  "customer_002": {
+    "active": true,
+    "expires": "2026-11-05"
+  },
+  "customer_003": {
+    "active": false,
+    "expires": "2026-09-01"
+  }
 }
