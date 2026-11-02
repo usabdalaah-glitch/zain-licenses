@@ -1,14 +1,14 @@
 {
   "customer_001": {
     "active": true,
-    "expires": "2026-11-02"
+    "expires": "2026-12-05"
   },
   "customer_002": {
     "active": true,
-    "expires": "2026-11-05"
+    "expires": "2026-12-05"
   },
   "customer_003": {
     "active": false,
-    "expires": "2026-09-01"
+    "expires": "2026-12-05"
   }
 }
